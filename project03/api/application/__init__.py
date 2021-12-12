@@ -1,5 +1,7 @@
-from flask import Flask,blueprint
+from flask import Flask
+import os
 
+MODEL_FILEPATH = os.path.join(os.getcwd(), __name__, 'model','model.pkl')
 def create_app(config=None):
     app = Flask(__name__)
     
@@ -7,12 +9,9 @@ def create_app(config=None):
             app.config.update(config)
 
     from application.views.main_search import main_bp
-    from application.views.sub_search import sub_bp
-    from application.views.result import result_bp
-
-    # app.register_blueprint(main_bp)
-    # app.register_blueprint(sub_bp, url_prefix='/api')
-    # app.regisrer_blueprint(result_bp, url_perfix='/<movie_name>')
+    
+    app.register_blueprint(main_bp)
+    
 
     return app
 
