@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    {% if True %}
+    <img src="{{ url_for('static', filename=pos_image) }}">
+    <img src="{{ url_for('static', filename=nag_image) }}">
+    {% endif %}
+  </body>
+</html>
