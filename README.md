@@ -18,3 +18,6 @@
 
 ### wine quality
   - https://github.com/YB-nt/wine_quality
+
+### job_scrap
+ - https://github.com/YB-nt/job_scraping
