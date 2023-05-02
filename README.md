@@ -1,3 +1,6 @@
+### job_scrap
+ - https://github.com/YB-nt/job_scraping
+ 
 ### face drawing 
   - https://github.com/YB-nt/drawing_face
   
@@ -19,5 +22,4 @@
 ### wine quality
   - https://github.com/YB-nt/wine_quality
 
-### job_scrap
- - https://github.com/YB-nt/job_scraping
+
